@@ -14,3 +14,7 @@ print(df)
 # Adding a new column 'Experience' with default value 5
 df['Bonus'] = 0.1 * df['salary']
 print(df)
+
+# Adding a new column  in a specific position
+df.insert(2, 'ID', [1, 2, 3, 4, 5])
+print(df)   
